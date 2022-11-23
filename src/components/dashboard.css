@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap");
+
+.cont {
+  width: 100%;
+  height: 100vh;
+  background: rgb(115, 177, 192);
+  background: linear-gradient(
+    0deg,
+    rgba(115, 177, 192, 1) 0%,
+    rgba(216, 204, 162, 1) 100%
+  );
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner-cont {
+  display: flex;
+}
+
+.left-cont,
+.right-cont {
+  background-color: rgba(255, 255, 255, 0.281);
+  height: 86vmin;
+  border-radius: 10px;
+}
+
+.left-cont {
+  width: 300px;
+  margin-right: 20px;
+}
+
+.right-cont {
+  width: 800px;
+  border: rgba(255, 255, 255, 0.336) 1px solid;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+
+.top-filters {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.filter-tag {
+  color: rgb(0, 69, 87);
+  font-size: 2vmin;
+  font-weight: 600;
+}
+
+.filter-input {
+  border: rgb(0, 69, 87) 0.5px solid;
+  border-radius: 5px;
+  height: 26px;
+  margin-bottom: 15px;
+}
+
+.input-1 {
+  width: 120%;
+}
+
+.input-2 {
+  width: 110%;
+}
+
+.text-editor-cont {
+  /* border: 1px solid black; */
+  height: 75vmin;
+}
+
+.editor-class {
+  background-color: white;
+  height: 69vmin;
+  max-height: 90%;
+}
+
+.demo-wrapper {
+  width: 96%;
+  margin-top: 100px;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.toolbar {
+  height: 20px;
+}
+
+.print-btn {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+
+  padding: 4px;
+  font-size: 1.7vmin;
+
+  background-color: transparent;
+
+  border: rgb(0, 69, 87) 3px solid;
+  border-radius: 10px;
+}
+
+.print-btn:hover {
+  cursor: pointer;
+}
+
+.left-cont {
+  position: relative;
+}
+
+.top-div {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+
+  color: rgb(0, 69, 87);
+  font-size: 4vmin;
+}
+
+.mid-div {
+  position: absolute;
+  left: 55%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+
+  color: rgb(0, 69, 87);
+  width: 80%;
+}
