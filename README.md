@@ -1,1 +1,1 @@
-https://github.com/franklinben23/optica/issues/1#issue-1460983347![Screenshot 2022-11-23 at 00-23-42 React App](https://user-images.githubusercontent.com/68623189/203469157-b40be7f6-ef83-43e2-b862-d9fd05d6f562.png)
+![screenshot](https://github.com/franklinben23/optica/issues/1#issue-1460983347)
